@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+.logo-e img {
+    height: 80px;
+}
+
+.b-search {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search input[type='text'] {
+    height: 30px;
+    width: 200px;
+    font-size: 2rem;
+    padding: 5px 15px;
+
+}
+
+.b-search img {
+    height: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+    background-color: rgb(175, 234, 120);
+}
+
+footer {
+    background-color: rgb(175, 234, 120);
+    height: 40px;
+}
+header > div {
+    flex-basis: 30%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.header-title {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 90%;
+    width: 85%;
+    margin: 50px auto;
+    background-color: rgba(75, 157, 157, 0.515);
+    padding: 20px 40px;
+}
+
+.m-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.mti-name {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.mt-img img{
+    height: 70px;
+}
+
+.mm-titre {
+    font-size: 3rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.mc-img img{
+ height: 50px;
+}
+.cards-holder {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.main-card {
+    flex: 0 1 calc(15% - 10px); /* 20% ширини контейнера мінус відступи між елементами */
+    margin: 20px; /* Відступи між елементами */
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 130px;
+    height: 160px;
+
+    font-size: 1.5rem;
+
+    border-radius: 20px;
+
+    background-color: rgb(255, 255, 255);
+
+    border: 1px solid black;
+}
+
+.now-holder {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+.now-holder > div {
+    flex-basis: 35%;
+    text-align: center;
+}

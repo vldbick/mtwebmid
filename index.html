@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo-e">
+                <a href="#">
+                    <img src="./img/free-icon-earth-16147533.png" alt="">
+                </a>
+            </div>
+
+            <div class="header-title">
+                Weather
+            </div>
+
+            <div class="search">
+                <input class="inp-se" type="text" placeholder="Enter local">
+                <button type="submit" class="b-search"><img src="./img/free-icon-font-search-3917132.png"
+                        alt=""></button>
+            </div>
+        </header>
+        <main>
+            <div class="holder">
+                <div class="m-top">
+                    <div class="mt-info">
+                        <div class="mti-name"></div>
+                        <div class="mti-country"></div>
+                        <div class="mti-obl"></div>
+                    </div>
+                    <div class="mt-img">
+                        <img src="./img/free-icon-sun-16147428.png" alt="">
+                    </div>
+                </div>
+                <div class="m-main">
+                    <div class="mm-now">
+                        <div class="mm-titre">Weather current:</div>
+                        <div class="now-holder">
+                            <div class="now-temp">Temp:<span>10</span>˚C</div>
+                            <div class="now-wind">Wind: <span>16.5 km/h</span></div>
+                            <div class="now-weahet">Condition: <span>sunny</span></div>
+                        </div>
+                    </div>
+                    <div class="mm-future">
+                        <div class="mm-titre">Weather on 10 days</div>
+                        <div class="cards-holder">
+                            <div class="main-card">
+                                <div class="mc-date">02-02-2002</div>
+                                <div class="mc-img">
+                                    <img src="./img/free-icon-sun-16147428.png" alt="">
+                                </div>
+                                <div class="mc-temp">10˚C</div>
+                                <div class="mc-weather">sunny</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+        <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.14.0/build/alertify.min.js"></script>
+        <script type="module" src="./scripts/main.js"></script>
+    </div>
+</body>
+
+</html>
